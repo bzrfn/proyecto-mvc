@@ -4,3 +4,5 @@ Mi proyecto de estructura MVC utilizando Git y Github.
 - models
 - view
 - controllers
+## Cual es el Uso del Proyecto 
+Ejecutar con Node.js mediante el archivo llamado app.js
