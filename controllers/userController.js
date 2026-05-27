@@ -10,10 +10,10 @@ export const createUser = async (req, res) => {
       });
     }
 
-    const user = User.create(name);
+    const user = await User.create({ name });
 
     res.status(201).json({
-      message: 'Usuario creado',
+      message: 'Usuario creado en MongoDB Atlas',
       data: user
     });
   } catch (error) {
