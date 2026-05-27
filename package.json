@@ -1,0 +1,35 @@
+{
+  "name": "proyecto-mvc",
+  "version": "1.0.0",
+  "description": "Proyecto MVC utilizando Node.js, Express y GitHub.",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"No hay pruebas configuradas\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bzrfn/proyecto-mvc.git"
+  },
+  "keywords": [
+    "mvc",
+    "nodejs",
+    "express",
+    "git"
+  ],
+  "author": "bzrfn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bzrfn/proyecto-mvc/issues"
+  },
+  "homepage": "https://github.com/bzrfn/proyecto-mvc#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
